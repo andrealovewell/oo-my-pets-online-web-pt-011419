@@ -21,11 +21,11 @@ class Owner
 	end
 
  	def self.reset_all
-		owners.clear
+		@@owners.clear
 	end
 
  	def self.count
-		owners.size
+		@@owners.size
 	end
 
  	def buy_fish(name)
